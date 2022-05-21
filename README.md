@@ -4,11 +4,11 @@ Simple rest apis returning hello world in port 8080 or ${server.port}
 
 ## Comparison
 
-| REPOSITORY       | TAG    | SIZE   | BUILDTIME |
-| ---------------- | ------ | ------ | --------- |
-| rust-image       | latest | 6.7MB  | 469s      |
-| go-image         | latest | 13.9MB | 2.1s      |
-| springboot-image | latest | 286MB  | 14.3s     |
+| REPOSITORY       | SIZE   | BUILDTIME |
+| ---------------- | ------ | --------- |
+| rust-image       | 6.7MB  | 469s      |
+| go-image         | 13.9MB | 2.1s      |
+| springboot-image | 286MB  | 14.3s     |
 
 ## Rust
 
