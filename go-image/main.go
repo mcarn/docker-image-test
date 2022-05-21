@@ -11,7 +11,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "Hello, World!")
+	io.WriteString(w, "Hello, Go!")
 }
 
 func handleRequests(port string) {
@@ -23,7 +23,6 @@ func handleRequests(port string) {
 }
 
 func main() {
-	fmt.Println("Starting server")
 
 	serverHost, ok := os.LookupEnv("server.port")
 
@@ -31,6 +30,8 @@ func main() {
 	if ok {
 		port = serverHost
 	}
+
+	fmt.Println("Starting server on port ", port)
 	handleRequests(port)
 
 }

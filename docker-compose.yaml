@@ -1,0 +1,22 @@
+services:
+  springboot:
+    image: springboot-image
+    ports:
+      - 8082:9000
+    environment:
+      server.port: 9000
+
+  go:
+    image: go-image
+    ports:
+      - 8081:9000
+    environment:
+      server.port: 9000
+
+  rust:
+    image: rust-image
+    ports:
+      - 8080:9000
+    environment:
+      api.response: '{"test":123}'
+      server.port: 9000

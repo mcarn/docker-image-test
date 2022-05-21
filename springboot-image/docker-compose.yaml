@@ -1,8 +1,0 @@
-services:
-  springboot:
-    image: spring-boot
-    ports:
-      - 8080:8081
-    environment:
-      api.response: "{\"test\":123}"
-      server.port: 8081

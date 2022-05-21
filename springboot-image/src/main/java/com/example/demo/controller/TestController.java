@@ -9,7 +9,7 @@ public class TestController {
 
     @GetMapping("/")
     public String getResponse() {
-        return "Hello world!";
+        return "Hello, Springboot!";
     }
 
 }
