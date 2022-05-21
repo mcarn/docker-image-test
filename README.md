@@ -1,6 +1,6 @@
 # Docker images comparison example
 
-Simple rest apis returning hello world in port 8080 or ${server.port}
+Simple rest apis returning hello world in port 8080 or `${server.port}`
 
 ## Comparison
 
